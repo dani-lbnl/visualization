@@ -1,0 +1,17 @@
+ra = ResamplePluginAttributes()
+ra.useExtents = 0
+ra.startX = 500
+ra.endX = 800
+ra.samplesX = 128
+ra.startY = 500
+ra.endY = 800
+ra.samplesY = 130
+ra.is3D = 1
+ra.startZ = 0
+ra.endZ = 10
+ra.samplesZ = 5
+ra.tieResolver = ra.random  # random, largest, smallest
+ra.tieResolverVariable = "default"
+ra.defaultValue = 0
+ra.distributedResample = 1
+SetOperatorOptions(ra, 0)
