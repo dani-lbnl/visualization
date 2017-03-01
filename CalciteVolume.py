@@ -37,7 +37,7 @@ def setMyAttributes(filename):
 	s.outputDirectory = "/Users/ushizima/Documents/ALS/text/sc2011/rock2"
 	s.format = s.BMP
 	s.fileName = filename
-	s.width, s.height = 1920,1080#600,450 #1024,768
+	s.width, s.height = 1920,1080 #high def #600,450 #1024,768 
 	s.resConstraint=s.NoConstraint
 	s.stereo = 1
 	s.screenCapture = 0
